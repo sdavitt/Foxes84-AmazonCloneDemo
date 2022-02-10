@@ -3,6 +3,11 @@
     color: #111;
 }
 
+html {
+    min-height: 100%;
+    background-image: radial-gradient(#e7e7e7 20%, white 70%);
+}
+
 #signinform {
     border-radius: 4px;
     border: 1px #ddd solid;
@@ -32,12 +37,19 @@
     margin-left: 5px
 }
 
-#footerrow {
-    border-top: 2px grey solid;
+#footerborderrow {
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    background-image: radial-gradient(rgb(116, 114, 114) 10%,rgb(214, 214, 214) 10%, white 80%);
+}
+
+.row {
+    margin: 0;
 }
 
 .rowmargin {
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
 
 .form-group {
@@ -103,4 +115,29 @@ a:hover{
 
 #createbutton:hover{
     background: linear-gradient(to bottom,#f7f8fa,#dadcdf);
+}
+
+#footerul {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#footerul > li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+#footertext {
+    text-align: center;
+    color: #767676;
+}
+
+#maincontainer {
+    background-color: white;
+}
+
+#footerrow, body, #footercontainer{
+    background-color: transparent;
 }
