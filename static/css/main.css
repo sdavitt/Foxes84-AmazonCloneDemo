@@ -1,3 +1,106 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+#signinform {
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    padding: 20px 26px;
+}
+
+#newp {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0;
+    color: #767676;
+}
+
+#newp:before, #newp:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #767676;
+    margin: auto;
+  }
+
+#newp:before {
+    margin-right: 5px
+}
+
+#newp:after {
+    margin-left: 5px
+}
+
+#footerrow {
+    border-top: 2px grey solid;
+}
+
+.rowmargin {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+#submitbtn {
+    margin-bottom: 12px;
+    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    font-size: 80%;
+}
+
+#submitbtn:hover{
+    background: linear-gradient(to bottom,#f7dfa5,#d4ad4a);
+}
+
+.tinytext {
+    font-size: 70%;
+}
+
+#helptext{
+    font-size: 80%;
+    padding: 0 0 5px 0;
+}
+
+a {
+    color: #0066c0 !important;
+}
+
+a:hover{
+    color: #c45500 !important;
+    text-decoration: underline !important;
+}
+
+.form-control{
+    font-size: 80%;
+    padding: 4px;
+    height: auto;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+}
+
+.form-control:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+#emaillabel{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+#createbutton{
+    margin-bottom: 12px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    font-size: 80%;
+}
+
+#createbutton:hover{
+    background: linear-gradient(to bottom,#f7f8fa,#dadcdf);
 }

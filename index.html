@@ -14,8 +14,47 @@
 </head>
 
 <body>
-
-    <h1>Test</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div id="logocol" class="col-md-4 col-sm-6 col-10 d-flex justify-content-center"><img class="img-fluid"
+                    src="static/images/logo.png" alt="Amazon"></div>
+        </div>
+        <div class="row justify-content-center rowmargin">
+            <div class="col-md-4 col-sm-6 col-10">
+                <form id="signinform">
+                    <h3>Sign-In</h3>
+                    <div class="form-group">
+                        <label id="emaillabel" class="mb-0" for="exampleInputEmail1">Email or mobile phone number</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button id="submitbtn" type="submit" class="btn btn-warning btn-block p-1">Continue</button>
+                    <div class="form-group">
+                        <small class="form-text tinytext">By continuing, you agree to Amazon's <a class="formlink"
+                                href="https://codingtemple.com/">Conditions of Use</a> and <a class="formlink"
+                                href="https://codingtemple.com/">Privacy Notice.</a></small>
+                    </div>
+                    <div class="btn-group dropdown">
+                        <a id="helptext" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            Need help?
+                        </a>
+                        <div class="dropdown-menu p-0">
+                            <a class="dropdown-item tinytext" href="#">Too bad</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center rowmargin">
+            <div class="col-md-4 col-sm-6 col-10">
+                <p id="newp" class="tinytext">New to Amazon?</p>
+                <button id="createbutton" class="btn btn-light btn-block p-1">Create account</button>
+            </div>
+        </div>
+        <div id="footerrow" class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 col-10">
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
